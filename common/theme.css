@@ -1,0 +1,13 @@
+:root {
+  --color-primary: #4D8F99;
+  --color-secondary: #1D3B3F;
+  --color-light: #BCD5D9;
+  --color-white: white;
+
+  --font-primary: "Sorts Mill Goudy", serif;
+  --font-secondary: "Montserrat", sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
