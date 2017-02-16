@@ -5,9 +5,94 @@
   --color-white: white;
 
   --font-primary: "Sorts Mill Goudy", serif;
-  --font-secondary: "Montserrat", sans-serif;
+  --font-secondary: "Questrial", sans-serif;
 }
 
 html {
   font-family: var(--font-primary);
+  color: var(--color-secondary);
+}
+
+/*Headings*/
+
+h1 {
+  color: var(--color-primary);
+  font-family: var(--font-secondary);
+}
+
+h2 {
+  color: var(--color-secondary);
+  font-family: var(--font-secondary);
+}
+
+h3 {
+  color: var(--color-primary);
+  font-family: var(--font-secondary);
+}
+
+h4 {
+  color: var(--color-white);
+  background-color: var(--color-light);
+  font-family: var(--font-secondary);
+}
+
+h5 {
+  color: var(--color-secondary);
+  font-family: var(--font-secondary);
+}
+
+h6 {
+  color: #;
+}
+
+/*Lists*/
+
+ul {
+  list-style-type: none;
+  color: var(--color-secondary);
+}
+
+dt {
+  color: var(--color-primary);
+  font-style: italic;
+}
+
+dd {
+  color: var(--color-secondary);
+}
+
+/*Links*/
+
+a {
+  color: var(--color-primary);
+}
+
+/*Blockquotes*/
+
+blockquote {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+}
+
+cite {
+  font-family: var(--font-secondary);
+  color: var(--font-secondary);
+}
+
+q {
+  color: var(--color-primary);
+}
+
+/*Emphasis & Edits*/
+
+em {
+  color: var(--color-primary);
+}
+
+strong {
+  color: var(--color-primary);
+}
+
+mark {
+  background-color: var(--color-light);
 }
