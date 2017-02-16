@@ -15,7 +15,7 @@ colors:
     The primary colour reflects the serious tone of the nature of the fostering system. It is heavy, and a little sombre, but somewhat comforting and relaxing. Use the primary for the nav, and anything directly associated with the brand.
   secondary: |
     The secondary acts as a darker version of the primary to add some contrast. Use this for body copy, and smaller headings.
-  neutral: |
+  accent: |
     The neutral colours are for backgrounds, and inner page headings.
 ---
 LOYAL believes that we have a duty to ensure that our dogs are placed in the homes best suited for them, with applicants that believe in the philosophy of rescue and have the patience to work through the screening process.

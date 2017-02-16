@@ -1,0 +1,23 @@
+.btn {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  font-family: var(--font-secondary);
+
+  color: #fff;
+}
+
+.btn-light {
+  background-color: var(--color-light);
+  border-color: var(--color-light);
+  font-family: var(--font-secondary);
+
+  color: #fff;
+}
+
+.btn-ghost {
+  background-color: transparent;
+  border-color: var(--color-primary);
+  font-family: var(--font-secondary);
+
+  color: var(--color-primary);
+}
