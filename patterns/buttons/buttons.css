@@ -4,6 +4,15 @@
   font-family: var(--font-secondary);
 
   color: #fff;
+
+  border-radius: 0px;
+  border: solid 2px;
+  padding: .25em .5em;
+}
+
+.btn:hover {
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
 }
 
 .btn-light {
@@ -12,6 +21,15 @@
   font-family: var(--font-secondary);
 
   color: #fff;
+
+  border-radius: 0px;
+  border: solid 2px;
+  padding: .25em .5em;
+}
+
+.btn-light:hover {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
 }
 
 .btn-ghost {
@@ -20,4 +38,15 @@
   font-family: var(--font-secondary);
 
   color: var(--color-primary);
+
+  border-radius: 0px;
+  border: solid 2px;
+  padding: .25em .5em;
+}
+
+.btn-ghost:hover {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+
+  color: #fff;
 }
