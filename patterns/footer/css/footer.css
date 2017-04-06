@@ -1,0 +1,27 @@
+.footer-nav,
+.social-btn {
+  color: var(--color-secondary);
+  transition: all 250ms ease-out;
+}
+
+.footer-nav:hover,
+.social-btn:hover {
+  color: var(--color-primary);
+}
+
+.foot-section {
+  border-bottom: solid 1px var(--color-light);
+}
+
+@media only screen and (min-width: 38em) {
+
+  .foot-section{
+    border-bottom: none;
+  }
+
+  .foot-section:nth-child(1),
+  .foot-section:nth-child(2) {
+    border-right: solid 1px var(--color-light);
+  }
+
+}

@@ -1,0 +1,25 @@
+.banner {
+  background-image: url("../../../images/banner-dog.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 15%;
+
+  height: 50vw;
+  max-height: 60vh;
+}
+
+.banner-tag {
+  color: var(--color-white);
+}
+
+.btn-ghost {
+  color: var(--color-white);
+
+  transition: all 250ms ease-out;
+}
+
+.btn-ghost:hover {
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}

@@ -1,0 +1,44 @@
+.about {
+
+}
+
+.white-header {
+  color: var(--color-white);
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.about-img {
+  max-width: 15em;
+  margin: auto;
+}
+
+.faq {
+  background-color: var(--color-primary);
+}
+
+.faq h3 {
+  color: var(--color-white);
+}
+
+.steps {
+  color: var(--color-white);
+}
+
+.steps h4 {
+  background-color: var(--color-primary);
+}
+
+.btn-ghost {
+  color: var(--color-white);
+  transition: all 250ms ease-out;
+}
+
+.btn-ghost:hover {
+  color: var(--color-light);
+  border-color: var(--color-white);
+  background-color: var(--color-white);
+}

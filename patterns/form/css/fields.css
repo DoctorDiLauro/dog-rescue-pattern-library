@@ -1,0 +1,7 @@
+.long-field label {
+  font-family: var(--font-secondary);
+}
+
+.long-field input {
+  border-color: var(--color-secondary);
+}

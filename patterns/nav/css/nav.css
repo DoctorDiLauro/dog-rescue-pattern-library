@@ -1,0 +1,19 @@
+.page-select {
+  background-color: var(--color-light);
+}
+
+.prev,
+.next {
+  color: var(--color-white);
+  border-color: var(--color-white);
+  transition: all 250ms ease-out;
+  stroke: var(--color-white);
+}
+
+.prev:hover,
+.next:hover {
+  color: var(--color-light);
+  background-color: var(--color-white);
+  border-color: var(--color-white);
+  stroke: var(--color-light);
+}
