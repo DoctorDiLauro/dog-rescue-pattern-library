@@ -12,13 +12,13 @@
   color: var(--color-white);
 }
 
-.btn-ghost {
+.btn-ghost-banner {
   color: var(--color-white);
 
   transition: all 250ms ease-out;
 }
 
-.btn-ghost:hover {
+.btn-ghost-banner:hover {
   color: var(--color-white);
   background-color: var(--color-primary);
   border-color: var(--color-primary);

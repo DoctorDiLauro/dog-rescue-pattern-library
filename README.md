@@ -1,4 +1,5 @@
 ---
+outputFile: "index.html"
 name: "Loyal Rescue Inc. - Foster Based Dog Rescue"
 fontUrl: "https://fonts.googleapis.com/css?family=Questrial|Sorts+Mill+Goudy"
 fonts:
@@ -18,4 +19,4 @@ colors:
   accent: |
     The neutral colours are for backgrounds, and inner page headings.
 ---
-LOYAL believes that we have a duty to ensure that our dogs are placed in the homes best suited for them, with applicants that believe in the philosophy of rescue and have the patience to work through the screening process.
+Loyal believes that we have a duty to ensure that our dogs are placed in the homes best suited for them, with applicants that believe in the philosophy of rescue and have the patience to work through the screening process.

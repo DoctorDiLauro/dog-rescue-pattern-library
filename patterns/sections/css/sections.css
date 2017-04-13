@@ -1,5 +1,5 @@
 .about {
-
+  background-color: var(--color-white);
 }
 
 .white-header {
@@ -12,32 +12,33 @@
 }
 
 .about-img {
-  max-width: 15em;
+  max-width: 400px;
   margin: auto;
 }
 
 .faq {
-  background-color: var(--color-primary);
+  background-color: var(--color-light);
 }
 
 .faq h3 {
-  color: var(--color-white);
+  color: var(--color-dark);
 }
 
 .steps {
-  color: var(--color-white);
+  color: var(--color-dark);
 }
 
 .steps h4 {
-  background-color: var(--color-primary);
+  color: var(--color-white);
+  background-color: var(--color-light);
 }
 
-.btn-ghost {
-  color: var(--color-white);
+.btn-ghost-faq {
+  color: var(--color-dark);
   transition: all 250ms ease-out;
 }
 
-.btn-ghost:hover {
+.btn-ghost-faq:hover {
   color: var(--color-light);
   border-color: var(--color-white);
   background-color: var(--color-white);
