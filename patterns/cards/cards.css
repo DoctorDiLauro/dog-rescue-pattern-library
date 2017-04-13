@@ -5,3 +5,18 @@
 .card {
   text-decoration: none;
 }
+
+.make-blue {
+  background-color: var(--color-light);
+}
+
+.make-white {
+  background-color: var(--color-white);
+}
+
+.img-contain {
+  max-width: 325px;
+  max-height: 325px;
+
+  overflow: hidden;
+}
