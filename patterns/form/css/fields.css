@@ -1,7 +1,45 @@
+.is-validated input:invalid,
+.is-validated input[type="checkbox"]:invalid + label::before {
+  border-color: #f33;
+}
+
+.error-message {
+  display: none;
+  background-color: #fee;
+  color: #c33;
+}
+
+.error-message-highlighted {
+  background-color: #fee;
+  color: #c33;
+}
+
+.is-validated > .error-message:first-child,
+.is-validated input:invalid + .error-message,
+.is-validated input:invalid + label + .error-message {
+  display: block;
+}
+
 .long-field label {
   font-family: var(--font-secondary);
 }
 
 .long-field input {
   border-color: var(--color-secondary);
+}
+
+.check-group {
+  border-bottom: solid 1px var(--color-secondary);
+}
+
+@media only screen and (min-width: 60em) {
+
+  .check-group {
+    border-bottom: none;
+    border-right: solid 1px var(--color-secondary);
+
+    padding-left: 1em;
+  }
+
+
 }

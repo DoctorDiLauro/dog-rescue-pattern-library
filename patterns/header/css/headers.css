@@ -2,8 +2,14 @@
   background-color: var(--color-white);
 }
 
-.btn-ghost{
+.btn-ghost {
   transition: all 250ms ease-out;
+}
+
+.select {
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  border: solid 2px var(--color-primary);
 }
 
 @media only screen and (min-width: 38em) {

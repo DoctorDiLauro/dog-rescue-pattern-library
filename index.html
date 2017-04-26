@@ -89,6 +89,16 @@
                   </a>
                 </li>
                 <li>
+                  <a class="gutter pad-t-1-4 pad-b-1-4 block page-pop" href="/pages/form.html" target="_blank">
+                    <div class="relative">
+                      <span>Form</span>
+                      <i class="icon i-18 absolute pin-cr">
+                        <svg><use xlink:href="#icon-pop-out" /></svg>
+                      </i>
+                    </div>
+                  </a>
+                </li>
+                <li>
                   <a class="gutter pad-t-1-4 pad-b-1-4 block page-pop" href="/pages/home.html" target="_blank">
                     <div class="relative">
                       <span>Home</span>
@@ -960,31 +970,142 @@
 
 </section>
 
-        <section class="pattern" id="form" role="tabpanel" hidden aria-hidden="true" style="">
-  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" style="">
+        <section class="pattern" id="form" role="tabpanel" hidden aria-hidden="true" >
+  <div class="pattern-toolbar gutter pad-t-1-4 pad-b-1-8 relative" >
     <h2 class="pattern-name peta push-1-4">Form</h2>
-        <ul class="list-group-inline gutter absolute pin-cr">
-            <li>
-              <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="form-fill-code-sample">
-                <i class="icon i-18">
-                  <svg><use xlink:href="#icon-code"></use></svg>
-                </i>
-              </button>
-            </li>
-            <li>
-              <a class="center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/form/fill.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
-                <i class="icon i-18">
-                  <svg><use xlink:href="#icon-pop-out"></use></svg>
-                </i>
-              </a>
-            </li>
-        </ul>
+      <nav class="pattern-nav">
+        <ol class="list-group-inline push-1-4">
+            <li><a href="#form-checkbox">Checkbox</a></li>
+            <li><a href="#form-fill">Fill</a></li>
+        </ol>
+      </nav>
   </div>
 
 
   
 
+    <div class="pattern-details" id="form-checkbox" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Checkbox</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="form-checkbox-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/form/checkbox.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
+
+      <div class="pattern-examples pad-t-1-2 pad-b-1-2">
+        <div class="gutter-2 pad-t-1-2 pad-b-1-2">
+          <div class="resizeable-pattern relative" style="">
+            <iframe data-src="patterns/form/checkbox.html" scrolling="no" onload="resizeIframe(this)" ></iframe>
+              <div class="resizeable-pattern-length">
+                <div class="resize-handle resize-handle-left" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+                <div class="resize-handle resize-handle-right" style="">
+                  <i class="icon i-18">
+                    <svg><use xlink:href="#icon-resize-handle" /></svg>
+                  </i>
+                </div>
+              </div>
+          </div>
+        </div>
+
+          <div class="pattern-code-wrap gutter pad-t-1-2 pad-b-1-2" hidden aria-hidden="true" id="form-checkbox-code-sample" tabindex="-1">
+            <div class="pattern-code relative milli island-1-2" style="">
+              <button class="center-contents-vertical pattern-tool-btn pattern-copy-btn absolute pin-tr" title="Copy code" aria-label="Copy code" data-clipboard-target="#form-checkbox-code-sample-copy-chunk" hidden>
+                <i class="icon i-18">
+                  <svg><use xlink:href="#icon-copy"></use></svg>
+                </i>
+              </button>
+              <code><pre id="form-checkbox-code-sample-copy-chunk">&lt;form class="max-length gutter-1-2 pad-t" method="post"&gt;
+
+  &lt;div class="grid">
+
+    &lt;div class="check-group unit xs-1 s-1 m-1-3 l-3 push-2">
+      &lt;div class="check push">
+        &lt;label class="milli" for="box">
+          &lt;p>Info&lt;/p>
+        &lt;/label>
+        &lt;input type="checkbox" id="box" class="check">
+      &lt;/div>
+      &lt;div class="check">
+        &lt;label class="milli" for="box">Info&lt;/label>
+        &lt;input type="checkbox" id="box" class="check">
+      &lt;/div>
+    &lt;/div>
+
+    &lt;div class="check-group unit xs-1 s-1 m-1-3 l-3 push-2">
+      &lt;div class="check push">
+        &lt;label class="milli" for="box">
+          &lt;p>Info&lt;/p>
+        &lt;/label>
+        &lt;input type="checkbox" id="box" class="check">
+      &lt;/div>
+      &lt;div class="check">
+        &lt;label class="milli" for="box">
+          &lt;p>Info&lt;/p>
+        &lt;/label>
+        &lt;input type="checkbox" id="box" class="check">
+      &lt;/div>
+    &lt;/div>
+
+    &lt;div class="check-group unit xs-1 s-1 m-1-3 l-3 push-2">
+      &lt;div class="check push">
+        &lt;label class="milli" for="box">
+          &lt;p>Info&lt;/p>
+        &lt;/label>
+        &lt;input type="checkbox" id="box" class="check">
+      &lt;/div>
+      &lt;div class="check">
+        &lt;label class="milli" for="box">
+          &lt;p>Info&lt;/p>
+        &lt;/label>
+        &lt;input type="checkbox" id="box" class="check">
+      &lt;/div>
+    &lt;/div>
+
+  &lt;/div>
+
+&lt;/form>
+</pre></code>
+            </div>
+          </div>
+      </div>
+    </div>
     <div class="pattern-details" id="form-fill" style="">
+        <div class="pattern-toolbar pattern-toolbar-inner relative gutter pad-t-1-4 pad-b-1-4" style="">
+          <h3 class="pattern-name tera push-1-8">Fill</h3>
+            <ul class="list-group-inline gutter absolute pin-cr">
+                <li>
+                  <button class="center-contents-vertical pattern-tool-btn pattern-code-btn" title="Show code" aria-label="Show code" aria-pressed="false" aria-controls="form-fill-code-sample">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-code"></use></svg>
+                    </i>
+                  </button>
+                </li>
+                <li>
+                  <a class="btn center-contents-vertical pattern-tool-btn pattern-pop-btn" href="patterns/form/fill.html" target="_blank" title="Open pattern in a new tab" aria-label="Open pattern in a new tab">
+                    <i class="icon i-18">
+                      <svg><use xlink:href="#icon-pop-out"></use></svg>
+                    </i>
+                  </a>
+                </li>
+            </ul>
+        </div>
 
       <div class="pattern-examples pad-t-1-2 pad-b-1-2">
         <div class="gutter-2 pad-t-1-2 pad-b-1-2">
