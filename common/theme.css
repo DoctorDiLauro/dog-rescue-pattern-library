@@ -13,8 +13,6 @@ html {
   color: var(--color-secondary);
 }
 
-/*Headings*/
-
 h1 {
   color: var(--color-primary);
   font-family: var(--font-secondary);
@@ -41,8 +39,6 @@ h5 {
   font-family: var(--font-secondary);
 }
 
-/*Lists*/
-
 ul {
   list-style-type: none;
   color: var(--color-secondary);
@@ -57,13 +53,9 @@ dd {
   color: var(--color-secondary);
 }
 
-/*Links*/
-
 a {
   color: var(--color-primary);
 }
-
-/*Blockquotes*/
 
 blockquote {
   font-family: var(--font-secondary);
@@ -78,8 +70,6 @@ cite {
 q {
   color: var(--color-primary);
 }
-
-/*Emphasis & Edits*/
 
 em {
   color: var(--color-primary);
