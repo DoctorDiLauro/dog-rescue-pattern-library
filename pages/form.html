@@ -17,9 +17,9 @@
   <link href="../patterns/nav/css/nav.css" rel="stylesheet">
   <link href="../patterns/form/css/fields.css" rel="stylesheet">
 </head>
-<body class="make-blue">
+<body>
 
-  <header class="make-white push-2">
+  <header>
 
     <nav>
       <div class="grid center-contents-vertical">
@@ -38,7 +38,7 @@
 
   </header>
 
-  <main class="pad-t-2 pad-b-2 gutter">
+  <main class="pad-t-2 pad-b-2 gutter make-blue">
 
     <div class="make-white">
       <form method="post" novalidate>
@@ -88,7 +88,7 @@
             <div class="check push-2">
               <input required aria-describedby="agree-error" type="checkbox" id="agree-3" class="check">
               <label class="micro gutter-1-2" for="agree-3">
-                <p>In the event that the dog I have applied for is approved to another adopter before my application is processed I will select another dog from the LOYAL Rescue Inc. website and continue with my application screening.</p>
+                <p>In the event that the dog I have applied for is approved to another adopter before my application is processed I will select another dog from the Loyal Rescue Inc. website and continue with my application screening.</p>
               </label>
               <p class="error-message milli island-1-4 push-0" id="agree-3-error">
                 <i class="icon i-24"><svg><use xlink:href="../images/icons.svg#error" /></svg></i>
@@ -111,7 +111,7 @@
             <div class="check push-2">
               <input required aria-describedby="agree-error" type="checkbox" id="agree-5" class="check">
               <label class="micro gutter-1-2" for="agree-5">
-                <p>I understand and accept that although all LOYAL Rescue Inc. dogs have been evaluated by a veterinarian, and that a copy of the veterinarian's report(s) will be provided at the time of adoption, it is possible that the dog may have minor or major medical issues that are undiagnosed. I understand and accept that the approximate age of the dog is estimated by a veterinarian and may be slightly or significantly inaccurate.</p>
+                <p>I understand and accept that although all Loyal Rescue Inc. dogs have been evaluated by a veterinarian, and that a copy of the veterinarian's report(s) will be provided at the time of adoption, it is possible that the dog may have minor or major medical issues that are undiagnosed. I understand and accept that the approximate age of the dog is estimated by a veterinarian and may be slightly or significantly inaccurate.</p>
               </label>
               <p class="error-message milli island-1-4 push-0" id="agree-5-error">
                 <i class="icon i-24"><svg><use xlink:href="../images/icons.svg#error" /></svg></i>
@@ -223,6 +223,52 @@
           </div>
         </div>
 
+        <div class="grid">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2">
+            <div class="long-field island-1-2">
+              <label class="mega" for="employer">Your Employer</label>
+              <input id="employer" required aria-describedby="email-error">
+              <p class="error-message milli island-1-4 push-0">
+                <i class="icon i-24"><svg><use xlink:href="../images/icons.svg#error" /></svg></i>
+                <span class="icon-label">Please provide your employer's name</span>
+              </p>
+            </div>
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2">
+            <div class="long-field island-1-2">
+              <label type="tel" class="mega" for="employer-phone">Employer's Phone Number</label>
+              <input id="employer-phone" required aria-describedby="employer-phone-error">
+              <p class="error-message milli island-1-4 push-0">
+                <i class="icon i-24"><svg><use xlink:href="../images/icons.svg#error" /></svg></i>
+                <span class="icon-label">Please provide an employer's phone number</span>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2">
+            <div class="long-field island-1-2">
+              <label class="mega" for="kids">Number of Children</label>
+              <input id="kids" required aria-describedby="kids-error">
+              <p class="error-message milli island-1-4 push-0">
+                <i class="icon i-24"><svg><use xlink:href="../images/icons.svg#error" /></svg></i>
+                <span class="icon-label">Please provide the number of children you have</span>
+              </p>
+            </div>
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2">
+            <div class="long-field island-1-2">
+              <label type="tel" class="mega" for="kids-age">Children's Ages</label>
+              <input id="kids-age" required aria-describedby="kids-age-error">
+              <p class="error-message milli island-1-4 push-0">
+                <i class="icon i-24"><svg><use xlink:href="../images/icons.svg#error" /></svg></i>
+                <span class="icon-label">Please provide your children's ages</span>
+              </p>
+            </div>
+          </div>
+        </div>
+
         <div class="pad-t-2 pad-b-2 text-center">
           <button class="btn btn-ghost" type="submit">Submit</button>
         </div>
@@ -232,6 +278,42 @@
     </div>
 
   </main>
+
+  <footer class="make-white">
+    <div class="grid grid-stretch pad-t gutter-1-2 push-2">
+      <div class="foot-section gutter-1-2 pad-t pad-b unit xs-1 s-1 m-1-3 l-1-3">
+        <a href="#"><p class="footer-nav push-0">top</p></a>
+        <a href="#"><p class="footer-nav push-0">home</p></a>
+        <a href="#"><p class="footer-nav push-0">adoptions</p></a>
+        <a href="#"><p class="footer-nav push-0">application</p></a>
+        <small class="big-screen pad-t micro">LOYAL Rescue Inc.© 2005-2017</small>
+      </div>
+
+      <div class="foot-section gutter-1-2 pad-t unit xs-1 s-1 m-1-3 l-1-3">
+        <div class="info-contain">
+          <h5 class="footer-head">contact us</h5>
+          <p class="push-0">171 Rink St <br> Peterborough, ON K9J 2J6</p>
+          <p class="push-0">(705) 772-4916</p>
+          <p>info@loyalrescue.com</p>
+        </div>
+      </div>
+
+      <div class="foot-section gutter-1-2 pad-t-2 pad-b-2 text-center unit xs-1 s-1 m-1-3 l-1-3">
+        <div class="grid">
+          <div class="unit push-1-2">
+            <a class="social-btn island" href="#"><i class="icon i-96 inline-block"><svg><use xlink:href="../../images/icons.svg#facebook" /></svg></i></a>
+          </div>
+          <div class="unit">
+            <a class="social-btn island" href="#"><i class="icon i-96 inline-block"><svg><use xlink:href="../../images/icons.svg#twitter" /></svg></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <small class="small-screen gutter micro">LOYAL Rescue Inc.© 2005-2017</small>
+
+  </footer>
+
   <script src="https://thomasjbradley.github.io/form-validation-helper/index.js"></script>
 </body>
 </html>

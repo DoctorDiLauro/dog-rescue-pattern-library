@@ -35,7 +35,8 @@
 
 @media only screen and (min-width: 60em) {
 
-  .check-group {
+  .check-group:nth-child(1),
+  .check-group:nth-child(2) {
     border-bottom: none;
     border-right: solid 1px var(--color-secondary);
   }
