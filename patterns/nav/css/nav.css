@@ -8,6 +8,7 @@
   border-color: var(--color-white);
   transition: all 250ms ease-out;
   stroke: var(--color-white);
+  background-color: var(--color-light);
 }
 
 .prev:hover,
