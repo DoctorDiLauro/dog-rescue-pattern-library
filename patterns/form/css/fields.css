@@ -35,10 +35,13 @@
 
 @media only screen and (min-width: 60em) {
 
-  .check-group:nth-child(1),
-  .check-group:nth-child(2) {
+  .check-group {
     border-bottom: none;
     border-right: solid 1px var(--color-secondary);
+  }
+
+  .check-group:nth-child(3) {
+    border: none;
   }
 
 
