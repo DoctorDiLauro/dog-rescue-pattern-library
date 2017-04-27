@@ -14,9 +14,27 @@
 
   <form class="max-length" method="post">
 
-    <div class="long-field island-1-2">
-      <label class="tera" for="fill">Info</label>
-      <input id="fill">
+    <div class="grid">
+      <div class="unit xs-1 s-1 m-1-2 l-1-2">
+        <div class="long-field island-1-2">
+          <label class="mega" for="name">Info</label>
+          <input id="name" required aria-describedby="name-error">
+          <p class="error-message milli island-1-4 push-0">
+            <i class="icon i-24"><svg><use xlink:href="../images/icons.svg#error" /></svg></i>
+            <span class="icon-label">Please provide info</span>
+          </p>
+        </div>
+      </div>
+      <div class="unit xs-1 s-1 m-1-2 l-1-2">
+        <div class="long-field island-1-2">
+          <label class="mega" for="age">Info again</label>
+          <input id="age" required aria-describedby="age-error">
+          <p class="error-message milli island-1-4 push-0">
+            <i class="icon i-24"><svg><use xlink:href="../images/icons.svg#error" /></svg></i>
+            <span class="icon-label">Please provide more info</span>
+          </p>
+        </div>
+      </div>
     </div>
 
   </form>
