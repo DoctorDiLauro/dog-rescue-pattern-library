@@ -16,6 +16,7 @@
 
 .is-validated > .error-message:first-child,
 .is-validated input:invalid + .error-message,
+.is-validated select:invalid + .error-message,
 .is-validated input:invalid + label + .error-message {
   display: block;
 }
@@ -37,8 +38,6 @@
   .check-group {
     border-bottom: none;
     border-right: solid 1px var(--color-secondary);
-
-    padding-left: 1em;
   }
 
 
